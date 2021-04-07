@@ -1,0 +1,25 @@
+{
+  "name": "playing-with-nodemailer",
+  "version": "1.0.0",
+  "description": "Trying to build a nodejs app that sends emails automatically using a mailing list",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "googleapis": "^66.0.0",
+    "mongoose": "^5.11.3",
+    "nodemailer": "^6.4.11",
+    "papaparse": "^5.3.0",
+    "passport-js": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "sleep": "^6.3.0",
+    "styliner": "^1.0.4"
+  }
+}

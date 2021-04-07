@@ -1,0 +1,1 @@
+Add attachments in this folder and reference them in app.js
