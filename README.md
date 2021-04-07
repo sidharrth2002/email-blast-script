@@ -1,4 +1,7 @@
 # email-blast-script
+
+<img src="https://img.shields.io/github/license/sidharrth2002/email-blast-script">
+
 Written to blast emails to a list of addresses in a csv file. This simple script will automate large email campaigns. To bypass SMTP limits and increase security, it uses OAuth2 authentication and pooling. You can run this script on a server and not have to worry about the login being blocked because of location.
 
 In order to use this script right out of the box, you first need to populate the `/env` file with this information.
