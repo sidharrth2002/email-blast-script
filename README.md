@@ -8,7 +8,7 @@
 
 Written to blast emails to a list of addresses in a csv file. This simple script will automate large email campaigns. To bypass SMTP limits and increase security, it uses OAuth2 authentication and pooling. You can run this script on a server and not have to worry about the login being blocked because of location.
 
-In order to use this script right out of the box, you first need to populate the `/env` file with this information.
+In order to use this script right out of the box, you first need to populate the `.env` file with this information.
 ```
 SENDER_NAME = 
 SENDER_ADDRESS = 
@@ -33,7 +33,7 @@ npm install
 node app.js
 ```
 
-This starter app can be expanded to run on a server, through an API. For large scale use (hundreds of recipients), consider renting your own server or buying your own email server first to prevent IP blacklisting. This script will be sufficient for regular use.
+This starter app can be expanded to run on a server, through an API. For large scale use (hundreds of recipients), consider renting your own email server (any SMTP client will do) first to prevent IP blacklisting. This script will be sufficient for regular use.
 
 Future releases will include:
 1. Custom Templating of Emails Through EJS
