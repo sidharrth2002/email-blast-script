@@ -1,5 +1,6 @@
 /*
 Sidharrth Nagappan
+sidharrth2002@gmail.com
 */
 
 require('dotenv').config()
